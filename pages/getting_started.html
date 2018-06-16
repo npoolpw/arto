@@ -117,16 +117,31 @@
         </thead>
         <tbody id="mining_apps">
         <tr>
-            <td class="miningAppTitle">XMRIG (by xmrig)</td>
-            <td>CPU</td>
-            <td><a target="_blank" href="https://github.com/xmrig/xmrig/releases">Github</a></td>
-            <td><a target="_blank" href="https://www.reddit.com/r/Monero/comments/65mt4n/xmrig_fastest_cpu_miner_for_monero_open_source/">Reddit</a></td>
-            <td><a target="_blank" href="https://github.com/xmrig/xmrig">Github</a></td>
+            <td class="miningAppTitle">Arto Miner (based on XMR-Stak)</td>
+            <td>CPU/NVidia GPU</td>
+            <td><a target="_blank" href="https://github.com/artocash/arto-miner/releases">Github</a></td>
+            <td><a target="_blank" href="https://discord.gg/QGCVVkc">Discord</a></td>
+            <td><a target="_blank" href="https://github.com/artocash/arto-miner">Github</a></td>
         </tr>
         <tr>
             <td colspan="5">
                 <span>Example:</span>
-                <code>./xmrig --algo cryptonight_marketcash --variant=0 -o stratum+tcp://<span class="exampleHost"></span>:<span class="examplePort"></span> -u <span class="exampleAddress">YOUR_WALLET_ADDRESS</span> -p YOUR_WORKER_NAME</code>
+                <code>arto-miner</code>
+                Please edit <code>config.txt, cpu.txt, pools.txt and nvidia.txt</code> file to suit your needs.
+            </td>
+        </tr>
+        <tr>
+            <td class="miningAppTitle">SRBMIner (based on XMR-Stak)</td>
+            <td>AMD GPU</td>
+            <td><a target="_blank" href="http://www.srbminer.com/">Website</a></td>
+            <td><a target="_blank" href="https://bitcointalk.org/index.php?topic=3167363.0">Bitcointalk</a></td>
+            <td><a target="_blank" href="http://www.srbminer.com/download.html">Download</a></td>
+        </tr>
+        <tr>
+            <td colspan="5">
+                <span>Example:</span>
+                <code>SRBMiner-CN.exe</code>
+                Please edit <code>config.txt and pools.txt</code> file to suit your needs.
             </td>
         </tr>
         </tbody>
